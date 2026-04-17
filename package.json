@@ -1,0 +1,51 @@
+{
+  "name": "@b7az3/robowhale-phaser",
+  "version": "1.0.0",
+  "description": "Reusable Phaser 3 utilities and UI components",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./grid/*": "./src/grid/*.js",
+    "./phaser3/*": "./src/phaser3/*.js",
+    "./phaser3/camera/*": "./src/phaser3/camera/*.js",
+    "./phaser3/gameObjects/*": "./src/phaser3/gameObjects/*.js",
+    "./phaser3/gameObjects/buttons/*": "./src/phaser3/gameObjects/buttons/*.js",
+    "./phaser3/gameObjects/container/*": "./src/phaser3/gameObjects/container/*.js",
+    "./phaser3/gameObjects/container/screen/*": "./src/phaser3/gameObjects/container/screen/*.js",
+    "./phaser3/gameObjects/text/*": "./src/phaser3/gameObjects/text/*.js",
+    "./phaser3/gameObjects/toast/*": "./src/phaser3/gameObjects/toast/*.js",
+    "./phaser3/particles/*": "./src/phaser3/particles/*.js",
+    "./phaser3/scenes/*": "./src/phaser3/scenes/*.js",
+    "./storage/*": "./src/storage/*.js",
+    "./utils/*": "./src/utils/*.js",
+    "./Polyfills": "./src/Polyfills.js"
+  },
+  "peerDependencies": {
+    "phaser": "^3.60.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "phaser",
+    "phaser3",
+    "game",
+    "ui",
+    "components",
+    "grid",
+    "kinetic-scroll",
+    "buttons",
+    "toast",
+    "storage",
+    "utils"
+  ],
+  "author": "b7az3",
+  "license": "MIT",
+  "files": [
+    "src",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
