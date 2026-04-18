@@ -5,6 +5,7 @@
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
+  "files": ["src", "index.js", "index.d.ts", "README.md", "LICENSE"],
   "exports": {
     ".": "./index.js",
     "./grid/*": "./src/grid/*.js",
@@ -42,11 +43,5 @@
     "utils"
   ],
   "author": "b7az3",
-  "license": "MIT",
-  "files": [
-    "src",
-    "index.js",
-    "README.md",
-    "LICENSE"
-  ]
+  "license": "MIT"
 }
