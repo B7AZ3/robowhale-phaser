@@ -1,11 +1,17 @@
 {
   "name": "@b7az3/robowhale-phaser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reusable Phaser 3 utilities and UI components",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
-  "files": ["src", "index.js", "index.d.ts", "README.md", "LICENSE"],
+  "files": [
+    "src",
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
   "exports": {
     ".": "./index.js",
     "./grid/*": "./src/grid/*.js",
