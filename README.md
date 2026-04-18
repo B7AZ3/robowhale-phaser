@@ -35,6 +35,12 @@ Designed to be **dependency‑free** (except Phaser itself), fully configurable,
 
 ---
 
+## GitHub Repo
+```sh
+https://github.com/B7AZ3/robowhale-phaser
+```
+
+
 ## Installation
 
 ```bash

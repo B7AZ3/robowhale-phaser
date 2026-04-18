@@ -4,6 +4,7 @@
   "description": "Reusable Phaser 3 utilities and UI components",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "exports": {
     ".": "./index.js",
     "./grid/*": "./src/grid/*.js",
